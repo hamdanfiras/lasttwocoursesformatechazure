@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadToAzureTest", "UploadToAzureTest\UploadToAzureTest.csproj", "{7BA6D10F-408B-4778-BC39-3E2A395229F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadBlobSAS", "UploadBlobSAS\UploadBlobSAS.csproj", "{0C602015-9153-4F39-A57E-13C64009A5F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BA6D10F-408B-4778-BC39-3E2A395229F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA6D10F-408B-4778-BC39-3E2A395229F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA6D10F-408B-4778-BC39-3E2A395229F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA6D10F-408B-4778-BC39-3E2A395229F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C602015-9153-4F39-A57E-13C64009A5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C602015-9153-4F39-A57E-13C64009A5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C602015-9153-4F39-A57E-13C64009A5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C602015-9153-4F39-A57E-13C64009A5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE4B4E43-25B0-4090-827C-7E8B302F05F6}
+	EndGlobalSection
+EndGlobal

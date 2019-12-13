@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DasFinance", "DasFinance\DasFinance.csproj", "{9E98E9E7-0BA8-47E6-928B-DCF0F5EA9129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DasFinanceFunctions", "DasFinanceFunctions\DasFinanceFunctions.csproj", "{97C17362-8962-4B93-A480-547004F1B672}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DasFinanceCore", "DasFinanceCore\DasFinanceCore.shproj", "{6F4AAAD3-E373-4A8F-B569-89A7F553DE62}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DasFinanceCore\DasFinanceCore.projitems*{6f4aaad3-e373-4a8f-b569-89a7f553de62}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E98E9E7-0BA8-47E6-928B-DCF0F5EA9129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E98E9E7-0BA8-47E6-928B-DCF0F5EA9129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E98E9E7-0BA8-47E6-928B-DCF0F5EA9129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E98E9E7-0BA8-47E6-928B-DCF0F5EA9129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C17362-8962-4B93-A480-547004F1B672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C17362-8962-4B93-A480-547004F1B672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C17362-8962-4B93-A480-547004F1B672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C17362-8962-4B93-A480-547004F1B672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98113190-4B28-4B98-BCBA-58CA3509E92C}
+	EndGlobalSection
+EndGlobal
